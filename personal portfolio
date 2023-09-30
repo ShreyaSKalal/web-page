@@ -1,0 +1,22 @@
+ABOUT PAGE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="about.css">
+</head>
+<body>
+    <section id="about">
+        <h2 class="underlined">About Me</h2>
+        <p>Hello! This is Shreya S Kalal.<br>
+            I'm from Hyderabad and I currently stay in Bengaluru.<br>
+            I'm currently pursuing my 3rd year of B.E. in Sri Sairam College Of Engineering.<br>
+            I'm a computer science student.<br>
+            Thank you!<br>
+        </p>
+    </section>
+    
+</body>
+</html>
