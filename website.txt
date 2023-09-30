@@ -1,0 +1,71 @@
+body {
+    border: 3px solid black;
+    margin: 0;
+    padding: 0;
+    background-color: #d0e8ea;
+    font-family: Arial, sans-serif;
+  }
+  
+  .centered-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .centered-header h1 {
+    color: blue;
+    border: 2px solid rgb(236, 149, 210);
+    padding: 10px;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .images {
+    position: relative;
+}
+
+.shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.butterfly {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  .images:hover .shape {
+    top: 40px;
+  }
+  .images:hover.butterfly{
+    top: 40px;
+  }
+  .content {
+    margin-top: 20px;
+  }
+  
+  .project {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    color: blue;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    color: #555;
+  }
+  
+
+ <img src="C:\Users\shreya kalal\Downloads\butterfly-by-flip-dribbble-removebg-preview.png" class="shape">
+ <img src="C:\Users\shreya kalal\Downloads\Shreya_S_kalal-removebg-preview.png" class="shape">
